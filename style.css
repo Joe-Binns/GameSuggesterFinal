@@ -1,0 +1,189 @@
+/* 
+Purple 734B5E
+Ornage? F5D3C8
+Light Gray BCBDC0
+Gray 8A8D91
+Dark Gray 565857
+*/
+
+#card-price-row {
+    margin-top: 5%;
+}
+/* --------------------- MODAL BACKGROUND ----------------------*/
+#modal-window {
+    width:100%; height:100%;
+    border:1px solid black;
+    display:none;
+    background: rgba(255,255,255,0.45);
+    position:fixed;
+    top:0px; left: 0px;
+    z-index:999;
+}
+
+/* --------------------- MODAL WINDOWS ----------------------*/
+    /* --------------------- ACCOUNT ----------------------*/
+        /* --------------------- LOGIN ----------------------*/
+        #modal-login {
+            display: none;
+            width:450px;
+            border:1px solid black;
+            background-color:White;
+            position:fixed;
+            top:calc(50vh - 100px); left:calc(50vw - 200px);
+            z-index: 1000;
+        }
+        /* --------------------- SIGNUP ----------------------*/
+        #modal-register {
+            display: none;
+            width:450px;
+            border:1px solid black;
+            background-color:White;
+            position:fixed;
+            top:calc(50vh - 100px); left:calc(50vw - 200px);
+            z-index:1000;
+        }
+        /* --------------------- SIGNOUT ----------------------*/
+        #modal-signout {
+            display: none;
+            width:450px;
+            border:1px solid black;
+            background-color:White;
+            position:fixed;
+            top:calc(50vh - 100px); left:calc(50vw - 200px);
+            z-index:1000;
+        }
+        /* --------------------- PROFILE ----------------------*/
+        #modal-profile {
+            display: none;
+            width:450px;
+            border:1px solid black;
+            background-color:White;
+            position:fixed;
+            top:calc(50vh - 100px); left:calc(50vw - 200px);
+            z-index:1000;
+        }
+        /* --------------------- UPDATE EMAIL ----------------------*/
+        #modal-profile-email {
+            display: none;
+            width:450px;
+            border:1px solid black;
+            background-color:White;
+            position:fixed;
+            top:calc(50vh - 100px); left:calc(50vw - 200px);
+            z-index:1000;
+        }/* --------------------- UPDATE PASSWORD ----------------------*/
+        #modal-profile-password {
+            display: none;
+            width:450px;
+            border:1px solid black;
+            background-color:White;
+            position:fixed;
+            top:calc(50vh - 100px); left:calc(50vw - 200px);
+            z-index:1000;
+        }
+        /* --------------------- DELETE LOGIN ----------------------*/
+        #modal-profile-delete {
+            display: none;
+            width:450px;
+            border:1px solid black;
+            background-color:White;
+            position:fixed;
+            top:calc(50vh - 100px); left:calc(50vw - 200px);
+            z-index:1000;
+        }
+    /* --------------------- GAME SELECTOR ----------------------*/
+        /* --------------------- ADD GAME ----------------------*/
+        #modal-game-selector-add-game {
+            display: none;
+            width:450px;
+            border:1px solid black;
+            background-color:White;
+            position:fixed;
+            top:calc(50vh - 100px); left:calc(50vw - 200px);
+            z-index:1000;
+        }
+        /* --------------------- GET GAME STARTPAGE ----------------------*/
+        #modal-game-selector-get-game-start {
+            display: none;
+            width:450px;
+            border:1px solid black;
+            background-color:White;
+            position:fixed;
+            top:calc(50vh - 100px); left:calc(50vw - 200px);
+            z-index:1000;
+        }
+
+        /* --------------------- GET GAME MAINPAGE ----------------------*/
+        #modal-game-selector-get-game-main {
+            display: none;
+            width:450px;
+            border:1px solid black;
+            background-color:White;
+            position:fixed;
+            top:calc(50vh - 100px); left:calc(50vw - 200px);
+            z-index:1000;
+        }
+
+        /* --------------------- SEARCH GAME ----------------------*/
+        #modal-game-selector-search-game {
+            display: none;
+            width:450px;
+            border:1px solid black;
+            background-color:White;
+            position:fixed;
+            top:calc(50vh - 100px); left:calc(50vw - 200px);
+            z-index:1000;
+        }
+        /* --------------------- DELETE GAME ----------------------*/
+        #modal-game-selector-delete-game {
+            display: none;
+            width:450px;
+            border:1px solid black;
+            background-color:White;
+            position:fixed;
+            top:calc(50vh - 100px); left:calc(50vw - 200px);
+            z-index:1000;
+        }
+        /* --------------------- UPDATE GAME (PRICE)----------------------*/
+        #modal-game-selector-update-price-game {
+            display: none;
+            width:450px;
+            border:1px solid black;
+            background-color:White;
+            position:fixed;
+            top:calc(50vh - 100px); left:calc(50vw - 200px);
+            z-index:1000;
+        }
+        /* --------------------- UPDATE GAME (DESCRIPTION)----------------------*/
+        #modal-game-selector-update-description-game {
+            display: none;
+            width:450px;
+            border:1px solid black;
+            background-color:White;
+            position:fixed;
+            top:calc(50vh - 100px); left:calc(50vw - 200px);
+            z-index:1000;
+        }
+
+/* --------------------- GAME SELECTOR ----------------------*/
+    /* --------------------- CANVAS ----------------------*/
+    #game-selector-canvas {
+        height: 175px;
+        align-items: center;
+        margin: auto;
+    }
+    /* --------------------- BUTTONS ----------------------*/
+    #game-selector-buttons-row {
+        margin-top: 2vh;
+    }
+    .game-selector-buttons {
+        height: 10px;
+    }
+
+/* ------------------------ FOOTER -------------------- */
+footer {
+    width: 100%;
+}
+#footer-item {
+    text-align: center;
+}
